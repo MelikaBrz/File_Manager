@@ -1,0 +1,86 @@
+body{
+    background:white;
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    
+  }
+  
+
+ 
+  .container1{
+    display:flex;
+      align-items:center;
+      justify-content:center;
+      
+  }
+    .form-box{
+        margin-top: 31rem;
+        width:380px;
+        height:450px;
+        background-color:white;
+        padding:20px;
+        position: absolute;
+        border:solid 1px rgba(128, 128, 128, 0.795);
+        display:flex;
+        flex-direction:column;
+        justify-content:flex-start;
+        /* opacity:0.5; */
+        border-radius:2%;
+        overflow: hidden;
+        box-shadow: 0px 8px 16px 0px rgb(0 0 0 / 20%);
+        position: absolute;
+        margin-right: 44rem;
+        z-index: 1;
+      
+    }
+  .header-form{
+    margin-bottom:15px;
+  }
+  .btn{
+    margin-top:40px;
+    margin-bottom:50px;
+  }
+  .message{
+    /* display:flex; */
+    justify-content:space-between
+  }
+  .social{
+    display:flex;
+    margin-top: 2rem;
+    justify-content:space-around;
+    padding:30px;
+  }
+  
+  .social i{
+    font-size:35px;
+  }
+
+  
+  .social i:hover{
+    
+    cursor:pointer;
+  }
+  div.type{
+    padding: 1rem 1rem;
+    border-bottom: solid 1px rgba(128, 128, 128, 0.651);
+    cursor: pointer;
+  }
+  div.type:hover{
+    background-color: rgba(128, 128, 128, 0.158);
+  }
+  form img{
+    margin-right: 1rem;
+  }
+  
+  .setup-form{
+
+    display: flex;
+    flex-direction: column;
+    justify-content: left;
+  }
+  div.form-box{
+    margin-left: 50%;
+    
+  }
+  
