@@ -1,0 +1,12 @@
+.folderItem
+{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+
+.folderItem img{
+    height: 70px;
+    width: 70px;
+}

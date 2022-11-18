@@ -1,0 +1,53 @@
+
+.fileDivNormal{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+    padding: .5rem .5rem;
+}
+
+.fileDivNormal p{
+    font-size: small;
+    padding: .7rem;
+}
+
+.fileDivNormal img{
+    height: 30px;
+    width: 30px;
+    margin: .5rem .5rem;
+}
+
+.fileDivDetail{
+    display: flex;
+    flex-direction: row;
+    justify-content: left;
+}
+
+.fileDivDetail img{
+    height: 30px;
+    width: 30px;
+    margin: .5rem .5rem;   
+}
+
+.fileDivDetail_NameDate{
+    margin-right: 1rem;
+    font-size: small;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.fileDivDetail_Information{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    
+}
+
+.fileDivDetail_Volume{
+    font-size: small;
+    padding-top: .8rem;
+    margin-left:5rem;
+}
+
+
