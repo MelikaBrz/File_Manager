@@ -4,35 +4,35 @@ import FileItem from "./fileItem";
 
 
 
-export default class FileViewer extends React.Component
-{
-    constructor(props)
-    {
+export default class FileViewer extends React.Component {
+    constructor(props) {
         super(props)
-        console.log('hear')
-        console.log(props.children)
-    }
 
-    _render()
-    {
+    }
+    _render() {
         switch (this.props.view) {
             case "list":
                 return (
-                    <div className="fileViewerList">
+                    <div className="fileViewerList" onContextMenu >
                         {
-                            this.props.children.map((file,index)=>{
-                                
-                                return <FileItem name={file.name} view={"detail"} volume={file.volume} date={file.date} />
+                            this.props.children.map((file, index) => {
+
+                                return <FileItem name={file.name}
+                                    view={"detail"}
+                                    volume={file.volume}
+                                    date={file.date}
+                                    onClick={this.props.onFileOpen}
+                                />
                             })
                         }
                     </div>
                 )
-                
+
             default:
-                return(
+                return (
                     <div className="fileViewerDefualt">
                         {
-                            this.props.children.map((file,index)=>{
+                            this.props.children.map((file, index) => {
                                 return <FileItem name={file.name} view={"normal"} volume={file.volume} date={file.date} />
                             })
                         }
@@ -43,8 +43,7 @@ export default class FileViewer extends React.Component
 
     }
 
-    render()
-    {
+    render() {
         return this._render();
     }
 

@@ -6,9 +6,7 @@ import './fileItem.css'
 export default class FileItem extends React.Component {
     constructor(props) {
         super(props)
-        console.log(props.name)
         this.state = { type: this.typeofFile(props.name) }
-
     }
 
     typeofFile(fileName) {
@@ -22,7 +20,7 @@ export default class FileItem extends React.Component {
         switch (this.props.view) {
             case "normal":
                 return (
-                    <div className="fileDivNormal">
+                    <div className="fileDivNormal" onClick={()=>this.props.onClick(this.props.name)}>
                         <img src={IconMap[this.state.type]} alt="" />
                         <p>{this.props.name}</p>
                     </div>
@@ -31,7 +29,7 @@ export default class FileItem extends React.Component {
 
             case "detail":
                 return (
-                    <div className="fileDivDetail">
+                    <div className="fileDivDetail" onClick={()=>this.props.onClick(this.props.name)}>
                         <img  src={IconMap[this.state.type]} alt="" />
                         <div className="fileDivDetail_Information">
                             <div className="fileDivDetail_NameDate">

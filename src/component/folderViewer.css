@@ -1,0 +1,27 @@
+div::-webkit-scrollbar {
+    width: 1em;
+  }
+  ::-webkit-scrollbar-button {
+      background-color: white;
+      background-size: 20px 20px;
+      background-repeat: no-repeat;
+      background-position: center center;
+      height: 16px;
+      width: 1em;
+      /* -webkit-box-shadow   : inset 1px 1px 2px rgba(0,0,0,0.2); */
+  }
+  ::-webkit-scrollbar-button:end:increment {
+      background-image: url(data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAOEAAADhCAMAAAAJbSJIAAAAZlBMVEX///8AAADv7+/X19fg4OCMjIz5+fm9vb2ZmZmtra0MDAySkpLDw8M8PDxSUlLLy8vo6OjR0dFwcHB8fHxGRkZcXFw0NDRhYWFCQkK3t7cvLy+np6chISEnJydoaGgXFxd2dnaBgYFmNrU9AAADU0lEQVR4nO2djVbTQBBGGcCiYFsV/EUR3/8lPYUotN1MN9nZM/NNvvsEc08PS3Kz2ZydEUIIIYQQQgghhBBCCCGEEEIIIYvi4mG9eec9RE9uZMfdynuObmzlmZ/n3pP04k7+ceE9Sh9W8sKV9zBdOH9lKG+9p+nBnqHceo/TgX1D2XjPY8+BofxIt6QeGopceo9kzLGhvPeeyZaCodx7D2VKyVD+eE9lSdFQPnuPZUjZUL7kuRAfMRT54D2ZFaOGsvUezYhxQ0lyV6wYyhvv4UzQDOWr93QWqIbyLcGSqhvKNf6SesJQ5KP3hK2cNJTv3iM2ctpQbrxnbKPCUD55D9lEjSF2Lq4yhM7FdYbIubjWEDcXVxvC5uJ6Q9RcPMEQNBdPMcTMxZMMIXPxREPAXDzVEC8XTzaEy8XTDdFy8QxDsFw8x1CukZbUWYZQuXimIVAunmuIk4tnG8Lk4vmGKLm4wRDkCVyTIUQubjNEyMWNhgC5uNUwfi5uNgyfi9sNo+diA8PgudjEMHQutjGMnIuNDOXRW2QUK8O4udjMUH4FXVLtDKMuqZaGMXOxqWHItmFrGLFtGBvKg7fQEdaGso52IW5uKL+DtQ17w2hto4dhrLbRxTBU2+hjGGlJ7WQYqG30MoyzpHYzDHMh3tEwSNvoaRhj901XwxAP4Loairfdjr6GEcIGf8Mm8v8dpl9L0/8/zH5Nk/66NP29Rfr7w/T3+Ok7TfbWFmYRHWDznkqgRXSAz56mkf75YfpnwEEutQ/gXoxq0u+nefQWGYX72uqI0SvKcH9pBen3CMfpFWW4V/8UkXpFGb4zoxOrV5Thu2sK0RfRAb5DOkrAXlGG73KPkP19fKjzInkuRoH0Z5ukP58m/RlDIaOvCs/62iP9eW1ho68Kz018IXD0Vak2xFtEB3gG7TNRn5zVwLOgd4SPvio8kx0i+qos/tsIUL2izMK/UYISfVUW/a0gnOirsuBvduEvogNL/XYeWPRVKRqiRV+VkiFc9FUpGML2ijLHhoDRV+XQEDL6qhwYYkZflX1D0OirsmeIGn1VVq8EI+/0bWDzXxA3+upsB7/gO31buH8ShI6+p7i8XW+S3O0SQgghhBBCCCGEEEIIIYQQQgghnvwFt1IrSOibVFYAAAAASUVORK5CYII=);
+  }
+   
+  
+  ::-webkit-scrollbar-button:start:decrement {
+     background-image: url(https://upload.wikimedia.org/wikipedia/commons/thumb/0/0d/Caret_left_font_awesome.svg/1200px-Caret_left_font_awesome.svg.png)
+  }
+     .Folders img{
+      height: 60px;
+      width: 60px;
+      margin-left: .3rem;
+    
+    
+     }
